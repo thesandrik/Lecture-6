@@ -1,0 +1,129 @@
+body {
+	background-image: url("../images/space.jpg");
+
+}
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	margin-top: 20px;
+}
+
+.bird {
+	color: white;
+	margin-top: 30px;
+	margin-left: 20px;
+	font-family: bold;
+}
+
+.bird-image {
+	width: 70px;
+	height: auto;
+}
+
+.bird-move {
+	 position: relative;
+  animation-name: bird-move;
+   animation: bird-move 30s infinite;
+
+}
+
+@keyframes bird-move {
+  from {left: 0px;}
+  to {left: 2200px;}
+}
+
+.car {
+	color: white;
+	margin-top: 30px;
+	margin-left: 20px;
+	font-family: bold;
+}
+
+.car-image {
+	width: 70px;
+	height: auto;
+}
+
+.car-move {
+	 position: relative;
+  animation-name: car-move;
+   animation: car-move 25s infinite;
+
+}
+
+@keyframes car-move {
+  from {left: 0px;}
+  to {left: 2200px;}
+}
+
+.airplane {
+	color: white;
+	margin-top: 30px;
+	margin-left: 20px;
+	font-family: bold;
+}
+
+.airplane-image {
+	width: 110px;
+	height: auto;
+}
+
+.airplane-move {
+	position: relative;
+  animation-name: airplane-move;
+  animation: airplane-move 20s infinite;
+
+}
+
+@keyframes airplane-move {
+  from {left: 0px;}
+  to {left: 2200px;}
+}
+
+.shuttle {
+	color: white;
+	margin-top: 30px;
+	margin-left: 20px;
+	font-family: bold;
+}
+
+.shuttle-image {
+	width: 110px;
+	height: auto;
+}
+
+.shuttle-move {
+	position: relative;
+  animation-name: shuttle-move;
+  animation: shuttle-move 15s infinite;
+}
+
+@keyframes shuttle-move {
+  from {left: 0px;}
+  to {left: 2200px;}
+}
+
+.flash {
+	color: white;
+	margin-top: 30px;
+	margin-left: 20px;
+	font-family: bold;
+}
+
+.flash-image {
+	width: 110px;
+	height: auto;
+}
+
+.flash-move {
+	position: relative;
+  animation-name: flash-move;
+  animation: flash-move 7s infinite;
+}
+
+@keyframes flash-move {
+  from {left: 0px;}
+  to {left: 2200px;}
+}
